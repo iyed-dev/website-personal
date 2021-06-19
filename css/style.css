@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins: 200,300,400,500,600,700,800,900&display=swap');
+h1
+{
+	font-family: Poppins, sans-serif;
+	letter-spacing: 1px;
+	color: white;
+	animation: h1 3s 1;
+}
+.a
+{
+	font-family: Poppins, sans-serif;
+	text-decoration: none;
+	animation: a 5s 1;
+	color: white;
+	letter-spacing: 1px;
+}
+@keyframes a
+{
+	0%{
+		letter-spacing: 0px;
+		color: #262626;
+	}
+	10%{
+		letter-spacing: 2px;
+		color: skyblue;
+	}
+	100%{
+		letter-spacing: 1px;
+		color: white;
+	}
+}
+.p1
+{
+	font-family: Poppins, sans-serif;
+	letter-spacing: 1px;
+	color: white;
+	animation: p 3s 1;
+}
+
+@keyframes h1
+{
+	0%{
+		letter-spacing: 0px;
+		color: black;
+	}
+	10%{
+		letter-spacing: 2px;
+		color: pink;
+	}
+	30%{
+		letter-spacing: 5px;
+		color: yellowgreen;
+	}
+	100%{
+		letter-spacing: 1px;
+	}
+}
+@keyframes p
+{
+	0%{
+		letter-spacing: 0px;
+		color: #262626;
+	}
+	10%{
+		letter-spacing: 2px;
+	}
+	100%{
+		letter-spacing: 1px;
+	}
+}
